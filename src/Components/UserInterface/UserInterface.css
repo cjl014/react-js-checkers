@@ -1,35 +1,36 @@
 .ui{
     min-height: 100vh;
-  }
+}
   
 #left_menu, #right_menu{
-    color: white;
-    height: 100vh;
-    padding-top: 15px;
-    border: 1px solid gray;
-    background: linear-gradient(#0a0a0a 65%, #8DA7FE)
+  color: white;
+  height: 100vh;
+  min-height: 600px;
+  padding-top: 15px;
+  border: 1px solid gray;
+  background: linear-gradient(#0a0a0a 65%, #8DA7FE)
 }
 #left_menu{
-    text-align: center;
+  text-align: center;
 }
 #right_menu{
-    text-align: center;
-    overflow-y: scroll;
+  text-align: center;
+  overflow-y: scroll;
 }
 .player1Text{
-    display: inline-block;
-    color: #ff3333;
+  display: inline-block;
+  color: #ff3333;
 }
 .player2Text{
-    display: inline-block;
-    color: cyan;
+  display: inline-block;
+  color: cyan;
 }
 .gameStatus, .historyText{
-      font-size: 16px;
-      text-align: center;
+  font-size: 16px;
+  text-align: center;
 }
 .piecesLeftHeader, .piecesLeft{
-    font-size: 16px;
+  font-size: 16px;
 }
 .piecesLeft span{
   border-radius: 20px;

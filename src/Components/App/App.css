@@ -5,7 +5,8 @@
 #app:before{
   content: '';
   width: 100%;
-  min-height: 100vh;
+  height: 100vh;
+  min-height: 600px;
   position: absolute;
   background-image: url('./images/checker-board.jpg');
   background-repeat: no-repeat;
