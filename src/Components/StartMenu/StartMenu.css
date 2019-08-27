@@ -1,0 +1,43 @@
+#start_menu{
+    min-height: 100vh;
+}
+#start_btn{
+    width: 150px;
+    height: 60px;
+}
+.start_menu_bg{
+    background-color: rgba(230, 230, 230,0.95);
+    background-image: url('./images/clean-bg3.jpg');
+    border: 4px inset lightblue;
+}
+.logo{
+    margin-top: 20px;
+    max-width: 415px;
+    width: 100%;
+}
+.two-player-text{
+    max-width: 180px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+/** Small devices (landscape phones, 576px and up) **/
+@media (min-width: 576px) {
+
+}
+
+/** Medium devices (tablets, 768px and up) **/
+@media (min-width: 768px) {
+  
+}
+
+/** Large devices (desktops, 992px and up) **/
+@media (min-width: 992px) {
+
+}
+
+/** Extra large devices (large desktops, 1200px and up) **/
+@media (min-width: 1200px) {
+  
+}
+
